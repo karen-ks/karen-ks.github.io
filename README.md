@@ -1,3 +1,9 @@
+<head>
+
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+</head>
+
 <body>
 	<!--DON'T CHANGE-->
 	<div class="maincontainer">
