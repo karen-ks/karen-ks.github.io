@@ -16,8 +16,8 @@
 				<img id="headerimg" src="./images/indexPhoto.jpg" title="Selfie" alt="mainpagePhoto">
 				<hr>
 				<ul class="HeadNavigation">
-					<li><a href="about.html" target="_blank">About</a></li>
 					<li><a href="projects.html" target="_blank">Projects</a></li>
+					<li><a href="contact.html" target="_blank">Contact Me</a></li>
 				</ul>
 			</div>
 		</header><!--DON'T CHANGE-->
@@ -29,8 +29,6 @@
 	<!--DON'T CHANGE--><footer class="box">
 		<ul class="FootNavigation">
 			<li>Copyright</li>
-			<li>Contact</li>
-			<li>Sitemap</li>
 			<li id="SocialMedia">Social Media Widgets</li>
 		</ul>
 	</footer><!--DON'T CHANGE-->
