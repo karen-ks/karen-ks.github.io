@@ -1,17 +1,3 @@
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Karen Singh | Portfolio</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="karen-ks.github.io" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Portfolio" />
-<meta property="og:description" content="Portfolio" />
-<link rel="canonical" href="https://karen-ks.github.io/" />
-<meta property="og:url" content="https://karen-ks.github.io/" />
-<meta property="og:site_name" content="Karen Singh" />
-<script type="application/ld+json">
-{"headline":"karen-ks.github.io","@type":"WebSite","url":"https://karen-ks.github.io/","name":"Karen Singh","description":"Portfolio","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
 
