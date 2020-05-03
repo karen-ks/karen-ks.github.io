@@ -1,4 +1,32 @@
-<html lang="en-uk">
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>karen-ks.github.io | Portfolio</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="karen-ks.github.io" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Portfolio" />
+<meta property="og:description" content="Portfolio" />
+<link rel="canonical" href="https://karen-ks.github.io/" />
+<meta property="og:url" content="https://karen-ks.github.io/" />
+<meta property="og:site_name" content="karen-ks.github.io" />
+<script type="application/ld+json">
+{"headline":"karen-ks.github.io","@type":"WebSite","url":"https://karen-ks.github.io/","name":"karen-ks.github.io","description":"Portfolio","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=7d411437f8450e65c391ed0b2c68ebc48cb76215">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      <h1><a href="https://karen-ks.github.io/">karen-ks.github.io</a></h1>
+
+			<html lang="en-uk">
 <head>
 
 	<title>Karen Singh</title>
