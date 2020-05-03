@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>karen-ks.github.io | Portfolio</title>
+<title>Karen Singh | Portfolio</title>
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="karen-ks.github.io" />
 <meta property="og:locale" content="en_US" />
@@ -24,12 +17,11 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
 
-      <h1><a href="https://karen-ks.github.io/">karen-ks.github.io</a></h1>
+      <h1><a href="https://karen-ks.github.io/">Karen Singh</a></h1>
 
 			<html lang="en-uk">
-<head>
 
-	<title>Karen Singh</title>
+<head>
 
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
 
