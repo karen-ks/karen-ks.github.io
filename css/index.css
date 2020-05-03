@@ -106,7 +106,7 @@ dd {
 .FootNavigation {
 	box-sizing: border-box;
 	text-align: center; /*others: left/right*/
-	background-color: #EEE/*#3587A4*/;
+	background-color: lightblue/*#EEE/*#3587A4*/;
 	overflow: auto;
 	padding: 5px 10px;
 	position: relative;
