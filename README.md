@@ -1,6 +1,5 @@
 <html lang="en-uk">
 <head>
-<!-- # karen-ks.github.io -->
 
 	<title>Karen Singh</title>
 
