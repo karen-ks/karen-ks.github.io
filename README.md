@@ -9,7 +9,7 @@
 <meta property="og:url" content="https://karen-ks.github.io/" />
 <meta property="og:site_name" content="Karen Singh" />
 <script type="application/ld+json">
-{"headline":"karen-ks.github.io","@type":"WebSite","url":"https://karen-ks.github.io/","name":"karen-ks.github.io","description":"Portfolio","@context":"https://schema.org"}</script>
+{"headline":"karen-ks.github.io","@type":"WebSite","url":"https://karen-ks.github.io/","name":"Karen Singh","description":"Portfolio","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <body>
