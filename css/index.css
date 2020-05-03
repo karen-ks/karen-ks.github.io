@@ -69,14 +69,13 @@ dd {
 }
 
 .HeadNavigation a:hover {
-  color: lightblue;
-  text-decoration: none;
-}
-
-.HeadNavigation a:visited {
-  color: red;
   text-decoration: underline;
 }
+
+/*.HeadNavigation a:visited {
+  color: red;
+  text-decoration: underline;
+}*/
 
 #head1 {
 	color: red;
