@@ -1,10 +1,3 @@
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-
-      <h1><a href="https://karen-ks.github.io/">Karen Singh</a></h1>
-
-			<html lang="en-uk">
-
 <head>
 
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
