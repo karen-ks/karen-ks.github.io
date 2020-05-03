@@ -1,0 +1,113 @@
+.maincontainer {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: auto;
+   grid-template-rows: repeat(1, 1fr); 
+   grid-template-columns: 1fr 7fr; 
+}
+
+
+.box {
+	border: 2px black solid;
+	background-color: #EEE;
+	padding: 10px;
+	margin: 5px;
+}
+
+body {
+  background: lightblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Header Navigation */
+
+/* id selector
+ id is unique within a page and cannot start with a number*/
+#headerimg {
+	height: 200px;
+	width: 190px;
+}
+
+.HeadNavigation {
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #EEE/*#3587A4*/;
+	overflow: auto;
+	padding: 5px 10px;
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.HeadNavigation li {
+	display: inline-block;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 10px 5px 5px 18px;
+	text-transform: uppercase;
+	/*others: capitalize that capitalises first letter of each word and lowercase the rest*/
+}
+
+/* Notes */
+dd {
+  font-family: verdana; /*cursive/Georgia/Arial/Garamond/
+						/"Courier New"(" " because two words)/Helvetica*/
+  font-size: 17px;
+}
+
+#head1 {
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* class selector */
+.topic {
+	text-align: center;
+	font-family: verdana;
+}
+
+/* class selector 
+	can refer to more than one class (add more than one class name (space in between) in HTML */
+.large {
+  font-size: 17px;
+}
+
+/* !!!Chainin: can specify specific HTML elements should be affect by class
+ p.topic {
+	text-align: center;
+} */
+
+/* Footer */
+
+.FootNavigation {
+	box-sizing: border-box;
+	text-align: center; /*others: left/right*/
+	background-color: #EEE/*#3587A4*/;
+	overflow: auto;
+	padding: 5px 10px;
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.FootNavigation li {
+	display: inline-block;
+	color: black; /*others: red/maroon/teal/gray/rebeccapurple*/
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 10px 5px 5px 18px;
+	text-transform: uppercase;
+}

@@ -1,2 +1,41 @@
-# karen-ks.github.io
-Portfolio
+<html lang="en-uk">
+<head>
+<!-- # karen-ks.github.io -->
+
+	<title>Karen Singh</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+</head>
+
+<body>
+	<!--DON'T CHANGE-->
+	<div class="maincontainer">
+
+		<header class="box headercontainer">
+			<div class="sidenav">
+				<img id="headerimg" src="./images/indexPhoto.jpg" title="Selfie" alt="mainpagePhoto">
+				<hr>
+				<ul class="HeadNavigation">
+					<li><a href="about.html" target="_blank">About</a></li>
+					<li><a href="projects.html" target="_blank">Projects</a></li>
+				</ul>
+			</div>
+		</header><!--DON'T CHANGE-->
+
+			<h3> Introduction here </h3>
+
+	</div><!--DON'T CHANGE-->
+
+	<!--DON'T CHANGE--><footer class="box">
+		<ul class="FootNavigation">
+			<li>Copyright</li>
+			<li>Contact</li>
+			<li>Sitemap</li>
+			<li id="SocialMedia">Social Media Widgets</li>
+		</ul>
+	</footer><!--DON'T CHANGE-->
+
+</body>
+
+</html>
