@@ -12,8 +12,6 @@
 {"headline":"karen-ks.github.io","@type":"WebSite","url":"https://karen-ks.github.io/","name":"karen-ks.github.io","description":"Portfolio","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=7d411437f8450e65c391ed0b2c68ebc48cb76215">
-  </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
 
