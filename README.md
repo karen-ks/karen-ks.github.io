@@ -31,5 +31,3 @@
 	</footer><!--DON'T CHANGE-->
 
 </body>
-
-</html>
