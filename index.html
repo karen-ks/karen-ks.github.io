@@ -29,94 +29,121 @@
 
 <body>
 
-<div class="HeadNavigation">
 	<div class="desktop">
-				<ul>
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Projects</a></li>
+		<div class="HeadNavigation">
+					<ul>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#">Projects</a></li>
+						<div class="dropdown">
+							<button onclick="myFunction()" class="dropbtn">Coursework</button>
+							<div id="myDropdown" class="dropdown-content">
+								<a href="#">Python</a>
+								<a href="#">R</a>
+								<a href="#">SQL</a>
+							</div>
+						</div>
+					</ul>
+		</div>
+	</div><!--/.HeadNavigation-->
+
+
+	<div class="MainContainer">
+
+		<div>
+			<div class="desktop">
+				<div class="SideContainer">
+					<img src="./images/indexPhoto.jpg" id="headerimg" alt="Karen Singh Profile Photo">
+					<h3 class="TitleFont">Karen Singh</h3>
+					<p class="RegText"><i>Graduate Actuary.<br>Data Analytics Student.</i></p>
+
+					<!--<br><a href="#" class="MobNav">About Me</a>
+					<br><a href="#" class="MobNav">Projects</a>
+					<br>
 					<div class="dropdown">
-						<button onclick="myFunction()" class="dropbtn">Coursework</button>
-						<div id="myDropdown" class="dropdown-content">
+						<button onclick="myMobFunction()" class="dropbtn">Coursework</button>
+						<div id="myDropdownMob" class="dropdown-content">
 							<a href="#">Python</a>
 							<a href="#">R</a>
 							<a href="#">SQL</a>
 						</div>
-					</div>
-				</ul>
-	</div>
-</div><!--/.HeadNavigation-->
+					</div>-->
 
 
-<div class="MainContainer">
-
-	<div>
-		<div class="desktop">
-			<div class="SideContainer">
-				<img src="./images/indexPhoto.jpg" id="headerimg" alt="Karen Singh Profile Photo">
-				<h3 class="TitleFont">Karen Singh</h3>
-				<p class="RegText"><i>Graduate Actuary.<br>Data Analytics Student.</i></p>
-				<br><a href="mailto:#@gmail.com" class="faText" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
-				<br><a href="https://github.com/karen-ks" class="faText"><i class="fa fa-github"></i> Github</a>
-				<br><a href="#"  class="faText"><i class="fa fa-linkedin"></i> LinkedIn</a>
-			</div><!--SideContainer-->
-		</div><!--desktop-->
-
-		<div class="mobile_device_480px">
-			<div class="MobSideContainer">
-	 				<h3 class="TitleFont">Karen Singh</h3>
-					<p class="RegText"><i>Graduate Actuary.<br>Data Analytics Student.</i></p>
 					<br><a href="mailto:#@gmail.com" class="faText" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
 					<br><a href="https://github.com/karen-ks" class="faText"><i class="fa fa-github"></i> Github</a>
 					<br><a href="#"  class="faText"><i class="fa fa-linkedin"></i> LinkedIn</a>
-			</div>
-		</div><!--/.MobileSideContainer-->
-	</div>
+				</div><!--SideContainer-->
+			</div><!--desktop-->
 
-	<div class="RightContainer">
-		<h1 class="HeadText">Recent Updates</h1>
-		<hr style="width:200px;text-align:left;margin-left:0">
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-		<p>bla</p><br>
-	</div><!--/.RightContainer-->
-</div><!--/.MainContainer-->
+			<div class="mobile_device_480px">
+				<div class="MobSideContainer">
+		 				<h3 class="TitleFont">Karen Singh</h3>
+						<p class="RegText"><i>Graduate Actuary.<br>Data Analytics Student.</i></p>
+
+						<br><a href="#" class="MobNav">About Me</a>
+						<br><a href="#" class="MobNav">Projects</a>
+						<br>
+						<div class="dropdown">
+							<button onclick="myMobFunction()" class="dropbtn">Coursework</button>
+							<div id="myDropdownMob" class="dropdown-content">
+								<a href="#">Python</a>
+								<a href="#">R</a>
+								<a href="#">SQL</a>
+							</div>
+						</div>
+
+						<br><a href="mailto:#@gmail.com" class="faText" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+						<br><a href="https://github.com/karen-ks" class="faText"><i class="fa fa-github"></i> Github</a>
+						<br><a href="#"  class="faText"><i class="fa fa-linkedin"></i> LinkedIn</a>
+				</div>
+			</div><!--/.MobileSideContainer-->
+		</div>
+
+		<div class="RightContainer">
+			<h1 class="HeadText">Recent Updates</h1>
+			<hr style="width:200px;text-align:left;margin-left:0">
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+			<p>bla</p><br>
+		</div><!--/.RightContainer-->
+	</div><!--/.MainContainer-->
 
 	<footer class="FootNavigation">
 		<span><i>© Copyright 2020 Karen Singh</i></span>
