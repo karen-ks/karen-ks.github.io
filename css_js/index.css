@@ -199,14 +199,14 @@ body {
 .FootNavigation {
   border: 2px black solid;
 	box-sizing: border-box;
-	text-align: center; /*others: left/right*/
+	text-align: left; /*others: left/right*/
 	background-color: #EEE/*#lightblue/*#3587A4*/;
 	overflow: auto;
 	position: relative;
 	top: 0;
 	width: 100%;
   bottom: 0;
-
+  font-size: 14px;
 }
 /*END FOOTER*/
 
