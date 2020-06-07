@@ -23,7 +23,7 @@ body {
 
 /*START NAVIGATION HEADER*/
 .HeadNavigation {
-  border: 2px black solid;
+  border: 2px #EEE solid;
 	box-sizing: border-box;
 	text-align: center;
 	background-color: #EEE/*#3587A4*/;
@@ -35,7 +35,7 @@ body {
 }
 
 .HeadNavigation li {
-  border: 2px black solid;
+  border: 2px #EEE solid;
 	display: inline-block;
 	color: black;
 	font-family: 'Oxygen', sans-serif;
@@ -100,7 +100,7 @@ body {
 }
 
 .MobNav {
-  border: 2px black solid;
+  border: 2px #EEE solid;
 	display: inline-block;
   text-align: left;
 	color: black;
@@ -255,10 +255,10 @@ body {
 }
 
 .dropbtn {
-  background-color: lightblue;
+  background-color: #EEE;
   color: black;
   padding: 10px 5px 5px 9px;
-  border: 2px black solid;
+  border: 2px #EEE solid;
   cursor: pointer;
   font-family: 'Oxygen', sans-serif;
 	font-size: 16px;
