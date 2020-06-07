@@ -91,24 +91,6 @@ body {
   padding: 5px 10px;
   margin: auto;
 }
-
-.MobSideContainer br {
-	display: inline-block;
-	color: black;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 16px;
-	font-weight: 100;
-	letter-spacing: 2px;
-	margin: 0;
-	padding: 10px 5px 5px 18px;
-	text-transform: uppercase;
-	/*others: capitalize that capitalises first letter of each word and lowercase the rest*/
-}
-
-.MobSideContainer a:link {
-  color: black;
-  text-decoration: none;
-}
 /*END SIDE NAVIGATION*/
 
 /*START MAIN NAVIGATION*/
@@ -259,7 +241,6 @@ body {
   display: none;
   position: relative;
   background-color: #EEE;
-
   font-family: 'Oxygen', sans-serif;
 	font-size: 16px;
 	font-weight: 100;
@@ -267,7 +248,7 @@ body {
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown-content a:link {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -275,7 +256,9 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #EEE}
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
