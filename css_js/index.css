@@ -1,3 +1,11 @@
+/* if desktop */
+.mobile_device_380px {
+    display: none;
+}
+.mobile_device_480px {
+    display: none;
+}
+
 body {
   background: #EEE;
   margin: 10px;
@@ -174,7 +182,7 @@ body {
 	text-align: center; /*others: left/right*/
 	background-color: #EEE/*#lightblue/*#3587A4*/;
 	overflow: auto;
-	
+
 	position: relative;
 	top: 0;
 	width: 100%;
