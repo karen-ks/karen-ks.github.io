@@ -174,11 +174,10 @@ body {
 	text-align: center; /*others: left/right*/
 	background-color: #EEE/*#lightblue/*#3587A4*/;
 	overflow: auto;
-	padding: 150px 10px;
+	
 	position: relative;
 	top: 0;
 	width: 100%;
-	z-index: 0;
 }
 /*END FOOTER*/
 
