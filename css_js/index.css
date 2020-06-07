@@ -1,0 +1,199 @@
+body {
+  background: #EEE;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/*START NAVIGATION HEADER*/
+.HeadNavigation {
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #EEE/*#3587A4*/;
+	padding: 5px 10px;
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.HeadNavigation li {
+	display: inline-block;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 10px 5px 5px 18px;
+	text-transform: uppercase;
+	/*others: capitalize that capitalises first letter of each word and lowercase the rest*/
+}
+
+.HeadNavigation a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.HeadNavigation a:hover {
+  text-decoration: underline;
+}
+/*END NAVIGATION HEADER*/
+
+/*START SIDE NAVIGATION*/
+.SideContainer {
+  box-sizing: border-box;
+  /*border: 2px black solid;*/
+  display: inline-block;
+  text-align: left;
+  width: 250px;
+  height: 100%;
+  position: relative;
+  padding: 5px 10px;
+  margin: auto;
+}
+/*END SIDE NAVIGATION*/
+
+/*START FONT/IAMGE FORMATTING*/
+.TitleFont {
+  font-family: 'Oxygen', sans-serif; /*cursive/Georgia/Arial/Garamond/
+						/"Courier New"(" " because two words)/Helvetica*/
+  font-size: 19px;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.RegText {
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+	margin: 0;
+	padding: 1px 5px 5px 9px;
+  margin-bottom: 15px;
+  text-decoration:none;
+  color: black;
+  text-align: left;
+}
+
+#headerimg {
+	height: 200px;
+	width: 160px;
+  border-radius: 100%;
+  display: flex;
+  text-align: center;
+}
+/*END FONT/IMAGE FORMATTING*/
+
+/*START WIDGET SETTING*/
+.faText {
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 5px 4px 0px 3px;
+  text-decoration:none;
+  color: black;
+  text-align: center;
+}
+
+.faText:hover {
+  text-decoration: underline;
+}
+
+.fa {
+  font-size: 30px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #000000;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-envelope-square {
+  background: #EEE;
+  color: #000000;
+}
+/*END WIDGET SETTING*/
+
+/*START FOOTER*/
+.FootNavigation {
+  /*border: 2px black solid;*/
+	box-sizing: border-box;
+	text-align: center; /*others: left/right*/
+	background-color: #EEE/*#lightblue/*#3587A4*/;
+	overflow: auto;
+	padding: 150px 10px;
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+/*END FOOTER*/
+
+/*DROPDOWN*/
+.dropbtn {
+  background-color: #EEE;
+  font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 10px 5px 5px 9px;
+	text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  text-decoration: underline;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  overflow: auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #EEE;
+
+  font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #EEE}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

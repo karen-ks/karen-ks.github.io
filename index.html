@@ -2,9 +2,9 @@
 <html lang="en-uk">
 <head>
 
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin SEO tag -->
 <title>Karen Singh| Portfolio</title>
@@ -18,44 +18,45 @@
 <meta property="og:site_name" content="karen-ks.github.io" />
 <!-- End SEO tag -->
 
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
-<!-- link to the website used for widgets -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Start CSS and widget links -->
+<link rel="stylesheet" type="text/css" href="./css_js/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- End CSS and widget links -->
 
+<!--TOGGLE BUTTON SCRIPT*-->
+<script src="./css_js/togglebtn.js"></script>
 </head>
 
 
 <body>
-	<!--DON'T CHANGE-->
-	<div class="maincontainer">
-		<header class="box headercontainer">
-			<div class="sidenav">
-				<img id="headerimg" src="./images/indexPhoto.jpg" title="profilePhoto" alt="mainpagePhoto">
-				<h1>Karen Singh</h1>
-				<hr>
-				<ul class="HeadNavigation">
-					<li><a href="projects.html" target="_blank">Projects</a></li>
-					<li><a href="projects.html">Contact</a></li>
-				</ul>
-			</div>
-		</header><!--DON'T CHANGE-->
+<div class="HeadNavigation">
+			<ul>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Projects</a></li>
+				<div class="dropdown">
+					<button onclick="myFunction()" class="dropbtn">Coursework</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="#">Python</a>
+						<a href="#">R</a>
+						<a href="#">SQL</a>
+					</div>
+				</div>
+			</ul>
+</div><!--/.HeadNavigation-->
 
-		<div id="insidebox" class="box main"><!--DON'T CHANGE-->
-
-			<h1> About </h1>
-
-		</div><!--DON'T CHANGE-->
-	</div><!--DON'T CHANGE-->
+<div class="SideContainer">
+	<img src="./images/indexPhoto.jpg" id="headerimg" alt="Karen Singh Profile Photo">
+	<h3 class="TitleFont">Karen Singh</h3>
+	<p class="RegText"><i>Graduate Actuary.<br>Data Analytics Student.</i></p>
+	<br><a href="mailto:codex.ren6@gmail.com" class="faText" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+	<br><a href="https://github.com/karen-ks" class="faText"><i class="fa fa-github"></i> Github</a>
+	<br><a href="#"  class="faText"><i class="fa fa-linkedin"></i> LinkedIn</a>
+</div><!--/.MainContainer-->
 
 </body>
 
-<!--DON'T CHANGE--><footer>
-	<ul class="FootNavigation">
-		<li><a href="#" class="fa fa-linkedin"></a></li>
-		<li><a href="https://github.com/karen-ks" class="fa fa-github"></a></li>
-		<hr>
-		<li>© Copyright 2020 Karen Singh</li>
-	</ul>
-</footer><!--DON'T CHANGE-->
+<footer class="FootNavigation">
+© Copyright 2020 Karen Singh
+</footer>
 
 </html>
