@@ -79,6 +79,18 @@ body {
   padding: 5px 10px;
   margin: auto;
 }
+
+.MobSideContainer {
+  box-sizing: border-box;
+  /*border: 2px black solid;*/
+  display: inline-block;
+  text-align: left;
+  width: 150px;
+  height: 100%;
+  position: relative;
+  padding: 5px 10px;
+  margin: auto;
+}
 /*END SIDE NAVIGATION*/
 
 /*START MAIN NAVIGATION*/
