@@ -87,7 +87,7 @@ body {
   /*border: 2px black solid;*/
   display: inline-block;
   text-align: left;
-  width: 125px;
+  width: 150px;
   height: 100%;
   position: relative;
   padding: 5px 10px;
@@ -125,7 +125,7 @@ body {
   height: 100%;
   position: relative;
   padding: 5px 10px;
-  margin: auto;
+  margin-left: 10px;
 }
 /*END MAIN NAVIGATION*/
 
