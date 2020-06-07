@@ -133,9 +133,8 @@ body {
 .TitleFont {
   font-family: 'Oxygen', sans-serif; /*cursive/Georgia/Arial/Garamond/
 						/"Courier New"(" " because two words)/Helvetica*/
-  font-size: 19px;
+  font-size: 17px;
   text-align: left;
-  text-transform: uppercase;
   color: black;
 	font-weight: 100;
 	letter-spacing: 2px;
@@ -147,7 +146,7 @@ body {
   font-size: 13px;
   letter-spacing: 2px;
 	margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
   text-decoration:none;
   color: black;
   text-align: left;
@@ -157,7 +156,7 @@ body {
   display: inline-block;
 	color: black;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 100;
 	letter-spacing: 2px;
 	padding: 10px 5px 5px 9px;
