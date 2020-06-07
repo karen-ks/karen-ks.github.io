@@ -58,7 +58,7 @@ body {
   display: inline-block;
   text-align: left;
   width: 250px;
-  height: 400px;
+  height: 100%;
   position: relative;
   padding: 5px 10px;
   margin: auto;
