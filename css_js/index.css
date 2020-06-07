@@ -87,7 +87,7 @@ body {
   /*border: 2px black solid;*/
   display: inline-block;
   text-align: left;
-  width: 150px;
+  width: 125px;
   height: 100%;
   position: relative;
   padding: 5px 10px;
@@ -113,8 +113,6 @@ body {
 	text-transform: uppercase;
 	/*others: capitalize that capitalises first letter of each word and lowercase the rest*/
 }
-
-
 /*END SIDE NAVIGATION*/
 
 /*START MAIN NAVIGATION*/
@@ -233,20 +231,6 @@ body {
   font-size: 14px;
 }
 /*END FOOTER*/
-
-/*DROPDOWN*/
-/*.dropbtn {
-  background-color: #EEE;
-  font-family: 'Oxygen', sans-serif;
-	font-size: 16px;
-	font-weight: 100;
-	letter-spacing: 2px;
-	margin: 0;
-	padding: 10px 5px 5px 9px;
-	text-transform: uppercase;
-  border: none;
-  cursor: pointer;
-}*/
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
