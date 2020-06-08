@@ -115,7 +115,8 @@ body {
   height: 100%;
   position: relative;
   padding: 5px 10px;
-  margin: auto;
+  /*margin: auto;*/
+  margom-right: 20px;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -165,7 +166,8 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  padding: 5px 10px;
+  /*padding: 5px 10px;*/
+  padding: 10px 5px 0px 0px;
   margin-left: 10px;
 }
 /*END MAIN NAVIGATION*/
