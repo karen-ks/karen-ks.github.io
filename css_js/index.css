@@ -237,7 +237,7 @@ body {
   display: inline-block;
 }
 
-.dropbtn {
+.dropdown .dropbtn {
   background-color: #EEE;
   color: black;
   padding: 10px 5px 5px 9px;
