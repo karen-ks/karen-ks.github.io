@@ -213,6 +213,7 @@ body {
   /*border-radius: 100%;*/
   display: flex;
   text-align: center;
+  margin-top: 15px;
 }
 
 #mobheaderimg {
@@ -221,6 +222,7 @@ body {
   /*border-radius: 100%;*/
   display: flex;
   margin-left: 20px;
+  margin-top: 15px;
 }
 /*END FONT/IMAGE FORMATTING*/
 
