@@ -194,13 +194,14 @@ body {
 }
 
 .HeadText {
+  /*border: 2px black solid;*/
   display: inline-block;
 	color: black;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 14px;
 	font-weight: 100;
 	letter-spacing: 2px;
-	padding: 10px 5px 5px 9px;
+  padding: 10px 5px 0px 0px;
 	text-transform: uppercase;
   text-align: left;
 }
