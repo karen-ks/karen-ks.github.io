@@ -35,19 +35,20 @@
 <!-- DESKTOP HEADING -->
 		<div class="desktop">
 			<div class="HeadNavigation">
-						<ul>
-							<li><a href="#">About Me</a></li>
-							<li><a href="#">Projects</a></li>
+					<a href="#">About Me</a>
+					<a href="#">Projects</a>
 
-							<div class="dropdown">
-								<button onclick="myFunction()" class="dropbtn">Coursework</button>
-								<div id="myDropdown" class="dropdown-content">
-									<a href="#">Python</a>
-									<a href="./html/RCoursework/Analyzing-the-ToothGrowth-Dataset.html">R</a>
-									<a href="#">SQL</a>
-								</div>
-							</div>
-						</ul>
+					<div class="dropdown">
+						<button onclick="myFunction()" class="dropbtn">Coursework</button>
+						<div id="myDropdown" class="dropdown-content">
+							<a href="#">Python</a>
+							<a href="./html/RCoursework/Analyzing-the-ToothGrowth-Dataset.html">R</a>
+							<a href="#">SQL</a>
+							<a href="#">SQL</a>
+							<a href="#">SQL</a>
+						</div>
+					</div>
+
 			</div>
 		</div>
 <!-- MOBILE HEADING -->
@@ -71,6 +72,25 @@
 					<h3 class="TitleFont">Karen Singh</h3>
 					<p class="RegText">Graduate Actuary.<br>Data Analytics Student.</p>
 
+<!-- tester desktop mob -->
+					<div class="desktop">
+						<div class="HeadNavigation">
+								<a href="#" class="MobNav">About Me</a>
+								<a href="#" class="MobNav">Projects</a>
+								<div class="dropdown">
+									<button onclick="myMobFunction()" class="dropbtn">Coursework</button>
+									<div id="myDropdownMob" class="dropdown-content">
+										<a href="#">Python</a>
+										<a href="./html/RCoursework/Analyzing-the-ToothGrowth-Dataset.html">R</a>
+										<a href="#">SQL</a>
+										<a href="#">SQL</a>
+										<a href="#">SQL</a>
+									</div>
+								</div>
+
+						</div>
+					</div>
+<!-- end tester desktop mob -->
 					<br><a href="mailto:#@gmail.com" class="faText" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
 					<br><a href="https://github.com/karen-ks" class="faText"><i class="fa fa-github"></i> Github</a>
 					<br><a href="#"  class="faText"><i class="fa fa-linkedin"></i> LinkedIn</a>
@@ -79,12 +99,13 @@
 			</div><!--desktop-->
 
 			<div class="mobile_device_480px">
-				<div class="MobSideContainer">
+				<div class="HeadNavigation">
 		 				<h3 class="TitleFont">Karen Singh</h3>
 						<p class="RegText">Graduate Actuary.<br>Data Analytics Student.</p>
 
 						<br><a href="#" class="MobNav"><i>About Me</i></a>
 						<br><a href="#" class="MobNav"><i>Projects</i></a>
+						<br><button onclick="myMobFunction()" class="dropbtn"><i>Check</i></button>
 						<br>
 						<div class="dropdown">
 							<button onclick="myMobFunction()" class="dropbtn"><i>Coursework</i></button>
