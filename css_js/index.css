@@ -215,8 +215,8 @@ body {
 }
 
 #mobheaderimg {
-	height: 200px;
-	width: 160px;
+	height: 100px;
+	width: 80px;
   /*border-radius: 100%;*/
   display: flex;
   text-align: center;
