@@ -108,15 +108,14 @@ body {
 
 .MobSideContainer {
   box-sizing: border-box;
-  border: 2px black solid;
+  /*border: 2px black solid;*/
   display: inline-block;
   text-align: left;
-  width: 150px;
+  width: 200px;
   height: 100%;
   position: relative;
   padding: 5px 10px;
   /*margin: auto;*/
-  margom-right: 20px;
   font-family: 'Oxygen', sans-serif;
 }
 
