@@ -84,7 +84,7 @@ body {
   /*border: 2px black solid;*/
   display: inline-block;
   text-align: left;
-  width: 150px;
+  width: 30%/*150px*/;
   height: 100%;
   position: relative;
   padding: 5px 10px;
@@ -96,7 +96,7 @@ body {
   text-decoration: none;
 }
 
-.MobNav {
+/*.MobNav {
   border: 2px #EEE solid;
 	display: inline-block;
   text-align: left;
