@@ -213,6 +213,14 @@ body {
   display: flex;
   text-align: center;
 }
+
+#mobheaderimg {
+	height: 200px;
+	width: 160px;
+  /*border-radius: 100%;*/
+  display: flex;
+  text-align: center;
+}
 /*END FONT/IMAGE FORMATTING*/
 
 /*START WIDGET SETTING*/
