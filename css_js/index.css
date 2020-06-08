@@ -108,6 +108,11 @@ body {
   text-decoration: none;
 }
 
+.MobSideContainer a:hover {
+  background-color: #ddd;
+  text-decoration: none;
+}
+
 /*.MobNav {
   border: 2px #EEE solid;
 	display: inline-block;
