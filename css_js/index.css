@@ -23,7 +23,7 @@ body {
 
 /*START NAVIGATION HEADER*/
 .HeadNavigation {
-  border: 2px black solid;
+  /*border: 2px black solid;*/
 	box-sizing: border-box;
 	text-align: center;
 	background-color: #EEE;
@@ -188,7 +188,7 @@ body {
 /*END FONT/IMAGE FORMATTING*/
 
 /*START WIDGET SETTING*/
-/*.faText {
+.faText {
   display: inline-block;
   font-family: 'Oxygen', sans-serif;
   font-size: 14px;
@@ -198,14 +198,14 @@ body {
   text-decoration:none;
   color: black;
   text-align: center;
-}*/
+}
 
 .faText:hover {
   text-decoration: underline;
 }
 
 .fa {
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   margin: 5px 2px;
 }
