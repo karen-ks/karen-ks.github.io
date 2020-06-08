@@ -218,7 +218,7 @@ body {
 
 /*START FOOTER*/
 .FootNavigation {
-  border: 2px black solid;
+  /*border: 2px black solid;*/
 	box-sizing: border-box;
 	text-align: left; /*others: left/right*/
 	background-color: #EEE/*#lightblue/*#3587A4*/;
