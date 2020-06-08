@@ -84,11 +84,23 @@ body {
   /*border: 2px black solid;*/
   display: inline-block;
   text-align: left;
-  width: 40%/*150px*/;
+  width: 150px;
   height: 100%;
   position: relative;
   padding: 5px 10px;
   margin: auto;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.MobSideContainer a {
+  /*border: 2px black solid;*/
+	display: inline-block;
+	color: black;
+	font-size: 14px;
+	font-weight: 100;
+	/*margin: 0;*/
+	padding: 5px 10px 0px 18px;
+	text-transform: uppercase;
 }
 
 .MobSideContainer a:link {
