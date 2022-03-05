@@ -534,7 +534,7 @@ blockquote {
   color: #6c757d;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
