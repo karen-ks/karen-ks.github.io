@@ -428,23 +428,7 @@ header.masthead {
   background-attachment: scroll;
 }
 
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: 12.5rem;
-    padding-bottom: 12.5rem;
-  }
-  header.masthead .page-heading h1, header.masthead .page-heading .h1,
-header.masthead .site-heading h1,
-header.masthead .site-heading .h1 {
-    font-size: 5rem;
-  }
-  header.masthead .post-heading h1, header.masthead .post-heading .h1 {
-    font-size: 3.5rem;
-  }
-  header.masthead .post-heading .subheading {
-    font-size: 1.875rem;
-  }
-}
+
 
 .position-relative {
   position: relative !important;
@@ -548,6 +532,12 @@ blockquote {
 blockquote {
   font-style: italic;
   color: #6c757d;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
 }
 
 /*--------------------------------------------------------------
