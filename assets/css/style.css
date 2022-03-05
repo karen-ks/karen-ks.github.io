@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navbar Dropdown
 --------------------------------------------------------------*/
-.navmenu {
+/* .navmenu {
   padding: 0;
 }
 .navmenu ul {
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navmenu a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #009cea;
-}
+} */
 
 .nav-menu .dropdown ul {
   display: block;
