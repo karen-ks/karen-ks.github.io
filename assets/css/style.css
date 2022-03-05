@@ -469,6 +469,11 @@ header.masthead {
   justify-content: center !important;
 }
 
+.col-sm-3 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
 .col-md-10 {
   flex: 0 0 auto;
   width: 83.33333333%;
@@ -483,8 +488,8 @@ header.masthead {
 .col-xl-7 {
   flex: 0 0 auto;
   /* width: 58.33333333%; */
-  /* width: 66.66666667%; */
-  width: 83.33333333%;
+  width: 66.66666667%;
+  /* width: 83.33333333%; */
 }
 
 .section-heading {
@@ -496,6 +501,7 @@ header.masthead {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+  font-style: italic;
 }
 
 blockquote {
