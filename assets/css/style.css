@@ -427,6 +427,19 @@ header.masthead {
   background-attachment: scroll;
 }
 
+.position-relative {
+  position: relative !important;
+}
+
+.px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+.px-lg-5 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
@@ -468,7 +481,8 @@ header.masthead {
 
 .col-xl-7 {
   flex: 0 0 auto;
-  width: 58.33333333%;
+  /* width: 58.33333333%; */
+  width: 66.66666667%;
 }
 
 .section-heading {
@@ -686,6 +700,7 @@ blockquote {
   overflow: hidden;
   z-index: 1;
 }
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
@@ -698,6 +713,8 @@ blockquote {
   z-index: 2;
   opacity: 0;
 }
+
+
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
