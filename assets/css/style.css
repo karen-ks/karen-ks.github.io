@@ -196,6 +196,39 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Navbar Dropdown
 --------------------------------------------------------------*/
+.navmenu {
+  padding: 0;
+}
+.navmenu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navmenu li {
+  position: relative;
+}
+.navmenu a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #7b909a;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navmenu a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navmenu a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #009cea;
+}
+
 .nav-menu .dropdown ul {
   display: block;
   position: absolute;
