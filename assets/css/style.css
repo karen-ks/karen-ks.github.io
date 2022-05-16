@@ -701,6 +701,31 @@ blockquote {
   margin-bottom: 20px;
   color: #050d18;
 }
+
+.resume .resume-download{
+  /* padding: 0 0 20px 20px; */
+  margin-top: -2px;
+  border-left: 2px;
+  position: relative;
+}
+
+.resume .resume-download h5 {
+  font-size: 18px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-decoration-color: #e4edf9;
+}
+
+.resume .resume-download a{
+  display: flex;
+  align-items: center;
+  color: #050d18;
+  padding: 12px 15px;
+}
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
