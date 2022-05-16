@@ -661,7 +661,7 @@ blockquote {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+/* .skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -689,7 +689,7 @@ blockquote {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
-}
+} */
 
 /*--------------------------------------------------------------
 # Resume
@@ -1111,13 +1111,11 @@ blockquote {
 } */
 
 .contact .php-email-form {
-  /* position: relative; */
-  left: 100px;
   width: 100%;
   padding: 30px;
   /* background: #fff; */
   background: #f5f8fd;
-  /* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
