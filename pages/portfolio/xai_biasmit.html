@@ -80,15 +80,15 @@
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="post-heading">
-                        <h1>Explainable Artificial Intelligence in the Transparency of Credit Risk Management: A Mixed Method Research</h1>
-                        <h2 class="subheading"><em>An application of Explainable Artificial Intelligence to encourage transparency of existing Black-Box Models .</em></h2>
+                        <h1>Explainable Artificial Intelligence in Bias Mitigation</h1>
+                        <h2 class="subheading"><em>An application of Explainable Artificial Intelligence to identify potential bias in datasets.</em></h2>
                         <span class="meta">
-                            11 May 2021
+                            11 May 2022
                         </span>
                         <br><br>
                         <div class="link-download">
-                          <h5><a href="../XAI_transprency_creditriskmgt.pdf" target="_blank" download><i class="bx bxs-download"></i> Complete PDF</a></h5>
-                          <h5><a href="https://github.com/karen-ks/AI-ethics" target="_blank" download><i class="bx bxl-github"></i> Github Repo</a></h5>
+                          <h5><a href="../XAI_biasmit.pdf" target="_blank" download><i class="bx bxs-download"></i> Complete PDF</a></h5>
+                          <h5><a href="https://github.com/karen-ks/masters-project" target="_blank" download><i class="bx bxl-github"></i> Github Repo</a></h5>
                         </div>
                     </div>
                 </div>
@@ -104,44 +104,40 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
 
                     <h2 class="section-heading">Abstract</h2>
-                    <p>As we leap into the dawning digital revolution, the implementation of Artificial Intelligence across various industries is increasing at as fast a pace as is the formation of data. However, as we progress towards the ethical management of said data, we find ourselves facing a limitation of the use of AI-based systems: transparency. The nature of previous and current machine learning models are black-box based which limits our access to understanding how these models arrive to their results. Thus, both providers and consumers are blindisghted as to how the data garnered weighs into said results.</p>
-                    <p>This is where the discussion of Explainable Artificial Intelligence emerges that promises an increase in the trust and transparency of Artificial Intelligence systems. Trust is key to building confidence and acceptence of Artificial Intelligence-based decision-making systems regardless of the industry it is implemented in. This study explores a survey on Explainable Artificial Intelligence to understand how it promotes transparency and will be followed by a replicaton of an empirical analysis of SMEs requesting peer-to-peer lending using an Explainable Artifiical Intelligence model to understand how their financial characteristics can be used to predict future behaviour.</p>
+                    <p>Fairness in machine learning is growing in attention where recent methods have addressed the discrimination between particular demographic groups that contain attributes classified as sensitive that include age, gender and race. Studies have also shown if the dataset itself is biased, it can lead to unfair decision making when used in training models.</p>
+                    <p>In this paper, I propose a framework combining a number of classification algorithms, fairness metrics and feature explainability methods to highlight and potentially address bias generation resulting from the training data.</p>
 
                     <h2 class="section-heading">Research Purpose</h2>
-                    <p>This mixed method research is based on a written paper by <a href="https://www.frontiersin.org/articles/10.3389/frai.2020.00026/full" target="_blank">Bussmann et al (2020)</a> to raise the key research question:</p>
-                    <blockquote class="blockquote">How can transparency be encouraged using Explainable AI in credit risk management?</blockquote>
-                    <p>This study uses a mixed methods research methodology and attempts to conduct parallel quantitative and qualitative research. The above research question is broken down into the following individual specific research questions that include quantitative and qualitative sub-questions that will be integrated back to the main research question.</p>
-                    <p>The first sub-question below is to be addressed using the qualitative component of the study.</p>
-                    <p><b><i>RQ1: How does Explainable Artificial Intelligence increase transparency?</p></b></i>
-                    <p>The component of the study utilises an existing publication on a <a href="https://ieeexplore.ieee.org/document/8466590" target="_blank">survey on Explainable AI</a>. By answering this research question, the qualitative study seeks to explore how Explainable AI has been utilised to promote transparency.</p>
-                    <p>The second sub-question is to be answered by the quantitative component of this study, specified as below.</p>
-                    <p><b><i>RQ2: How can Explainable Artificial Intelligence be used to implement the transparency of decision making within peer-to-peer lending?</p></b></i>
-                    <p>As this study uses a mixed methods research, the quantitative and qualitative components should be connected with each other rather than be studied separately. The connection between the quantitative and qualitative studies begins at the research design - the construction of the research questions.</p>
+                    <p>This report aims at casting light on the problem of model transparency and propose a frameowrk addressing the main challenge of a dataset:</p>
+                    <blockquote class="blockquote">How do individual training data entries influence biased and inaccurate results?</blockquote>
+                    <blockquote class="blockquote">How can identifying biased entries be used to improve representation in the datasets to improve both fairness and accuracy?</blockquote>
 
-                    <h2 class="section-heading">Analysis Approach</h2>
-                    <p><b><i>Qualitative Analysis</b></i></p>
-                    <p>This study refers to a <a href="https://ieeexplore.ieee.org/document/8466590" target="_blank">survey on Explainable AI by Adadi, A et al. (2018)</a> to answer the qualitative research question of how Explainable AI promotes transparency.</p>
-                    <p><b><i>Quantitative Analysis</b></i></p>
-                    <p>The data considered was sourced from a study by <a href="https://www.tandfonline.com/doi/full/10.1080/08982112.2019.1655159" target="_blank">Guidici, P. et al</a> that was initially supplied by the European External Credit Assessment Institution (ECAI). They specialise in credit scoring for peer-to-peer lending platforms focused on SME commercial lending. The dataset is made up of official financial information on 4,514 Italian SMEs that represent the target of peer-to-peer lending platforms. The information about the status where 0 = active and 1 = defaulted are also included. The dataset shows 11.03% of the firms have defaulted.</p>
-                    <p>The study aims to recreate the XGBoost model that was proposed by Bussmann et al (2020) that was able to increase the performance of the prediction of an existing logistic regression scoring model constructed by <a href="https://econpapers.repec.org/article/eeestapro/v_3a136_3ay_3a2018_3ai_3ac_3ap_3a160-164.htm" target"_blank">Giudici (2018)</a>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378437119301372" target="_blank">Ahelegby et al. (2019)</a>, and <a href="https://www.frontiersin.org/articles/10.3389/frai.2019.00003/full" target="_blank">Giudici et al.(2019)</a>. The results from the model will then be explained by employing Shapley values.</p>
-                    <p>The combination of both the qualitative and quantitative analysis will be used to show how the application of Explainable Artificial Intelligence can increase the transparency of decision making models.</p>
+                    <p><b><i>Aim</b></i></p>
+                    <p>Identifying and promoting the fairness of AI applications and machine learning techniques in the industry.</p>
 
-                    <h2 class="section-heading">Results & Discussion</h2>
-                    <p>Python was used for this study. The dataset from the ECAI was split into a training set of 80& and a test set of 20%. A logistic regression model was first estimated on the training set then applied to the test set. This was used as a basis for comparison with the gradient boosting model XGBoost. The XGBoost model was then also estimated on the training set to be applied to the test set. The ROC curves of the two models are as follows:</p>
-                    <img class="img-fluid" src="../../assets/img/portfolio/xai_transparency_creditriskmgt1.png" alt="ROC curves for the logistic credit risk model and XGBoost model">
+                    <p><b><i>Objectives</b></i></p>
+                    <li>Highlight how existing technologies influence how bias is identified in the dataset - either using evaluation metrics or bias quantifiers.</li>
+                    <li>Proposing a framework to identify bias in datasets using a combination of fairness and bias quantifiers alongside existing machine learning models.</li>
+                    <li>Proposing a method to produce the relationship between the input and output to identify data entries influencing inaccurate or biased results</li>
+                    <p>This report achieved the first two objectives but where the third objective was not met, this will be proposed as future work to be future work to be pursued.</p>
+
+                    <h2 class="section-heading">Methodology</h2>
+                    <p>Two binary classification datasets were used in this paper - <a href="https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset" target="_blank">Credit Card Default</a> and <a href="https://www.kaggle.com/c/1056lab-diabetes-readmission-prediction" target="_blank">Diabetes Readmission</a>. Each of the two datasets contains at least one identified protected attribute that could influence the outcome of a prediction.</p>
+                    <img class="img-fluid" src="../../assets/img/portfolio/xai_biasmit1.png" alt="ROC curves for the logistic credit risk model and XGBoost model">
                     <br>
-                    <!-- <p><span class="caption text-muted">Receiver Operating Characteristic (ROC) curves for the logistic credit risk model and for the XGBoost model. The results relating to the XGBoost model is shown in blue and the logistic model's results is in orange.</span></p> -->
-                    <p>Note that the XGBoost improves the predictive accuracy in comparison to the logistic regression model, where the graph indicates an increase from 0.54 to 0.66. Shapley values were calculated for four randomly selected firms in the data set to indicate which variables contributed towards the predictions of whether or not that firm would default.</p>
-                    <p>The XGBoost model combined with the interpretation of results by Shapley values is a suitable alternative with respect to the lack of transparency in black-box decision-making models. The concept of black-box model that have been exploited by technological companies in order to protect their intellectual property to conserve competitiveness. This contradicts the need for responsible AI whose three pillars are accountability, responsiblity and transparency.</p>
-                    <p>Tje use of XAI systems generally requires justifications for a particular outcome, especially in cases where unexpected decisions are made. This allows for auditable ways to support algorithmic decisions to encourage fair and ethical decisions that will build trust. In addition to justifying a decision, there is also a deeper understanding to unknown vulnerabilities that can assist debugging.</p>
-                    <p>As discussed in the survey by Adadi (2018), AI tools in the financial services poses queries around fair lending despite the fact that the financial indsutry is heavily regulated and are responsible for making fair decisions. XAI implementation provides an outlet to provide explanations around credit application decisions.</p>
-                    <p>The image below shows the contribution of each explanatory variable according to the Shapley's decomposition for four predictions, two of which have defaulted and the others have not. The red bars are an indication of low variable importance and the blue bars indicidate a high variable importance.</p>
-                    <img class="img-fluid" src="../../assets/img/portfolio/xai_transparency_creditriskmgt2.png" alt="ROC curves for the logistic credit risk model and XGBoost model">
-                    <br>
+                    <p>A number of performance indicators were used in this paper to measure the model's behaviour. They include the ROC (Receiver Operating Characteristic) Curves, AUC (Area under the ROC Curve), Accuracy, Precision, F1-Score and Specificity. Two fairness metrics - FairML and LIME - were selected to analyse any undesired bias in the training data / model.</p>
+                    <p>Two classification models were used in this study - Random Forest and LightGBM. RandomizedSearchCV and GridSearchCV were used to carry out hyperparameter tuning.</p>
+
+                    <h2 class="section-heading">Results</h2>
+                    <p>The results as an entirety did not indicate that the designated sensitive attributes play a major role in the model's results although it cannot be concluded as such. The performance metrics were not at it's peak performance as a result of an attempt of preserving the integrity of the original dataset as best possible.</p>
 
                     <h2 class="section-heading">Conclusion</h2>
-                    <p>The replication of the study by Bussman et al (2020) shows that the use of Explainable Artificial Intelligence, in this case the XGBoost model alongside interpretation by Shapley values, reaffirms that the use of Explainable AI can indeed increase transparency in decision making models. This meet the current need for high predictive accuracy alongside high interpretability in this era of transparent data management.</p>
-                    <p>Future studies would propose to explore alternative algorithms that can further improve predicitive accuracy whilst maintaining or even improving the model interpretability. As also proposed by Bussmann et al. (2020), an alternative would also be to improve model development by utilising the Shapley values to identify key features that can improve model predictions. Stricter implementation of legal responsibilities should also be put in place and monitored. This responsibility lies within the organisations utilising the data for their decision making systems. Relating this to the current EU GDPR regulations, it remains to be quite general with respect to the Artificial Intelligence systems. More research should be carried out to explore possible technical and theoretical checks to be put in place to regulate the ethical use of data within decision making.</p>
+                    <p>Although there was insufficient evidence to prove that there was significant bias in the dataset, the feature importance of the Diabetes Readmission dataset using the LightGBM model did indicate that the designated sensitve attribute (race) was a major influence on the model's output. This paper does not conclude that it is sufficient to rule out the possibility of sensitive attributes influencing the model's output and hence, the presence of bias.</p>
+                    <p>This paper also argues that accuracy should not be the only performance indiciator of a model, the performance metrics were not adapted to preserve the integrity of the original dataset as much as possible to create a baseline indicater of model performance to perform bias quantification in the future.</p>
+                    <p>Tjos paper as a whole addressess the legality, ethics and professionalism of the use of AI applications in the industry. The provision, utilisation and management of an automated decision-making system may be legal and professional in the industry but the key issue being addressed and is aimed at resolving is raising the awareness of the ethics of how those systems manage the data flowing through it.</p>
+
+                    <h2 class="section-heading">Future Work</h2>
+                    <p>This paper proposes the involvement of technical expertise to interpret the results of the LIME model's outputs to aggregate local input's feature importance to identify specific entries that are influencing the overall model's performance. The future aim for the aggregate quantification for individual inputs would be to identify how sensitive or protected attributes contribute to the over or under-representation in the dataset and hence, be able to improve the training dataset.</p>
 
                 </div>
             </div>
